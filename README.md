@@ -1,10 +1,10 @@
-<div style= "text-align: center; margin-top: 20px; margin-bottom: 40px;">
+<p align="center">
     <img
     src= "img\abstrak_maxplus_logo.svg"
-    alt= "AbstrakMaxPlus log"
-    style= "width: 40%; height: auto"
+    alt= "AbstrakMaxPlus logo"
+    style= "width: 50%; height: auto"
     >
-</div>
+</p>
 
 
 # AbstrakMaxPlus
