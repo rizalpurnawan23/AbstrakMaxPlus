@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AbstrakMaxPlus"
+version = "0.1.0b1"
+authors = [
+  { name = "Rizal Purnawan" }
+]
+description = "An intuitive, vectorized infix-notation module for Max-Plus algebra."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.20.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
