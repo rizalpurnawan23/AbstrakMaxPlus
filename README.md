@@ -17,14 +17,21 @@ By replacing nested function calls with elegant infix operators, `AbstrakMaxPlus
 ## 📖 Mathematical Foundation
 
 The Max-Plus algebra is an idempotent semiring $(\mathbb{R} \cup \{-\infty\}, \oplus, \otimes)$, where:
-*   **Addition ($\oplus$):** $x \oplus y = \max(x, y)$
-*   **Multiplication ($\otimes$):** $x \otimes y = x + y$
+- **Addition ($\oplus$):** $x \oplus y = \max(x, y)$
+- **Multiplication ($\otimes$):** $x \otimes y = x + y$
 
 For matrices $A, B \in \mathbb{R}^{m \times n}$ and $C \in \mathbb{R}^{n \times p}$, these operations extend element-wise and vectorially:
-*   **Matrix Addition ($A \oplus B$):** 
-    $$(A \oplus B)_{ij} = \max(A_{ij}, B_{ij})$$
-*   **Matrix Multiplication ($A \otimes C$):** 
-    $$(A \otimes C)_{ij} = \bigoplus_{k=1}^n (A_{ik} \otimes C_{kj}) = \max_{k} (A_{ik} + C_{kj})$$
+- **Matrix Addition ($A \oplus B$):**
+
+$$
+    (A \oplus B)_{ij} = \max(A_{ij}, B_{ij})
+$$
+
+- **Matrix Multiplication ($A \otimes C$):**
+
+$$
+    (A \otimes C)_{ij} = \bigoplus_{k=1}^n (A_{ik} \otimes C_{kj}) = \max_{k} (A_{ik} + C_{kj})
+$$
 
 
 ## ⚡ Key Features
@@ -123,5 +130,4 @@ print(A |od| B)
 
 ## 📝 License
 
-<!-- The source code of this project is open-source and licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details. -->
 This project is open-source and licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
