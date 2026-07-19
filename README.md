@@ -2,7 +2,7 @@
     <img
     src= "img\abstrak_maxplus_logo.svg"
     alt= "AbstrakMaxPlus logo"
-    style= "width: 50%; height: auto"
+    style= "width: 60%; height: auto"
     >
 </p>
 
